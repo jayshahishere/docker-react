@@ -12,7 +12,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           Hello world!
-          <br>
+          <br/>
           This deployment was done using GitHub + Travis CI + AWS Beanstalk.
         </p>
       </div>
