@@ -11,7 +11,9 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          Bye world!
+          Hello world!
+          <br>
+          This deployment was done using GitHub + Travis CI + AWS Beanstalk.
         </p>
       </div>
     );
