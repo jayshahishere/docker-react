@@ -1,0 +1,9 @@
+sudo: required
+services: 
+    - docker
+
+before_install:
+    - docker build -t jayshah/docker-react -d Dockerfile.dev .
+
+script:
+    - docker run -e CI=true jayshah/docker-react npm run test -- --coverage
